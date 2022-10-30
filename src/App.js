@@ -1,8 +1,9 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import './index.css';
+import Page4 from "./components/Page4";
 
-const anchors = ["firstPage", "secondPage", "thirdPage"];
+const anchors = [ "firstPage", "secondPage", "thirdPage", "pageFour" ];
 
 const App = () => (
   <ReactFullpage
@@ -10,7 +11,7 @@ const App = () => (
     navigation
     navigationTooltips={anchors}
     navigat
-    sectionsColor={["#7fff00","#00ffff","#29ab87" ]}
+    sectionsColor={["#7fff00","#00ffff","#29ab87", "#FFCCFF" ]}
     onLeave={(origin, destination, direction) => {
       console.log("onLeave event", { origin, destination, direction });
     }}
@@ -22,6 +23,7 @@ const App = () => (
           <div className="section"><h3>Page 1</h3></div>
           <div className="section"><h3>Page 2</h3></div>
           <div className="section"><h3>Page 3</h3></div>
+          <Page4/>
         </div>
       );
     }}
