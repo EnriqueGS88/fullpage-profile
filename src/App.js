@@ -19,9 +19,9 @@ const App = () => (
 
       return (
         <div>
-          <div className="section"><h3>Section 1</h3></div>
-          <div className="section"><h3>Section 2</h3></div>
-          <div className="section"><h3>Section 3</h3></div>
+          <div className="section"><h3>Page 1</h3></div>
+          <div className="section"><h3>Page 2</h3></div>
+          <div className="section"><h3>Page 3</h3></div>
         </div>
       );
     }}
