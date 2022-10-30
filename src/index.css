@@ -20,3 +20,10 @@ h3 {
 .fp-section {
   text-align: center;
 }
+
+.fp-watermark {
+  display: none !important;
+}
+.fp-watermark > a {
+  display: none !important;
+}
