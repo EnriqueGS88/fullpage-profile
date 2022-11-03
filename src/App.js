@@ -2,6 +2,7 @@ import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import './index.css';
 import Page4 from "./components/Page4";
+// import image1 from './assets/signavio1.PNG';
 
 const anchors = [ "firstPage", "secondPage", "thirdPage", "pageFour" ];
 
@@ -25,6 +26,7 @@ const App = () => (
           <div className="section"><h3>Page 2</h3></div>
           <div className="section"><h3>Page 3</h3></div>
           <Page4/>
+          {/* <img src={ image1 } alt="image" /> */}
         </div>
       );
     }}
